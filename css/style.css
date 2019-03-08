@@ -1,0 +1,134 @@
+body {
+    background-color: #f2f2f2;
+}
+
+/*############################ FORM ############################*/
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+option[select], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+        
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #2388ed;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div.cont {
+  background-color: #f2f2f2;
+  width: auto;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.colMod1 {
+  background-color: #f2f2f2;
+  float: right; 
+  margin-top: 20px; 
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+h1, h3 {
+   margin: 0;
+   padding: 0;
+}
+
+h1 {
+   font-size: 100px;
+}
+
+h3 {
+    padding-bottom: 30px;
+    font-size:50px;
+}
+
+.imgMod {
+    width: 44.4775555%; 
+    height: 62.0468227%;
+}
+
+.colMod2 {
+    margin-top: 20px;
+}
+
+.formMod {
+    padding: 15px 20px 15px 20px; 
+    box-shadow: 0 10px 20px 0 black;
+}
+
+.headerMod {
+    margin-bottom: 30px; 
+    text-align: center; 
+    font-weight: 300; 
+    font-size: 25px;   
+}
+
+/*###################### Mobile ##########################*/
+
+@media screen and (max-width: 767px) {
+    
+    .colMod1 {
+        width: 100% !important;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    .imgMod {
+        width: 200px;
+        height: 191px;
+    }
+    
+    .formMod {
+        margin-top: 390px;
+}
